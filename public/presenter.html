@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Presentador — Quiz previo</title>
+  <link rel="stylesheet" href="/css/quiz.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/questions.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" id="lobby">
+      <div class="row">
+        <div class="grow">
+          <h1>Modo presentador</h1>
+          <p class="muted">Creá una sala, proyectá el QR y empezá cuando todos estén conectados.</p>
+        </div>
+        <button class="btn" id="btn-create">Crear sala</button>
+      </div>
+      <div id="lobby-active" hidden style="margin-top:1.2rem">
+        <div class="row" style="align-items:flex-start">
+          <div class="qr-box grow">
+            <div class="muted">Escaneá para unirte</div>
+            <canvas id="qr"></canvas>
+            <div class="code-xl" id="room-code">————</div>
+            <div class="muted" id="join-url"></div>
+          </div>
+          <div class="grow">
+            <div class="pill">Conectados: <span id="student-count">0</span></div>
+            <p class="muted" style="margin-top:1rem">Cuando estés listo:</p>
+            <button class="btn big" id="btn-start">Iniciar quiz</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="play" hidden style="margin-top:1rem">
+      <div class="row">
+        <div class="pill" id="progress">Pregunta 1 / 11</div>
+        <div class="pill">Respuestas: <span id="answered">0</span> / <span id="students">0</span></div>
+        <div class="grow"></div>
+        <div class="timer" id="timer">35</div>
+      </div>
+      <div class="topic" id="topic"></div>
+      <p class="prompt" id="prompt"></p>
+      <div class="options" id="options"></div>
+
+      <div id="reveal-panel" hidden style="margin-top:1.2rem">
+        <h2>Resultados</h2>
+        <p id="explanation"></p>
+        <img class="figure" id="figure" alt="Figura explicativa" />
+        <div class="bars" id="bars"></div>
+        <div class="row" style="margin-top:1.2rem">
+          <button class="btn big" id="btn-next">Siguiente pregunta →</button>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:1rem" id="reveal-actions">
+        <button class="btn secondary" id="btn-reveal">Mostrar resultados ahora</button>
+      </div>
+    </div>
+
+    <div class="card" id="done" hidden style="margin-top:1rem">
+      <h1>¡Fin del quiz!</h1>
+      <p class="muted">Buen calentamiento. Ahora sí: inferencia causal.</p>
+    </div>
+  </div>
+
+  <script src="/js/presenter.js"></script>
+</body>
+</html>
