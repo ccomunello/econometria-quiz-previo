@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="Eventos independientes">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="Independent events">
   <rect width="640" height="280" fill="#fbfcfe"/>
   <circle cx="250" cy="140" r="85" fill="#2f80ed" opacity="0.22" stroke="#2f80ed" stroke-width="3"/>
   <circle cx="390" cy="140" r="85" fill="#1b7f4a" opacity="0.22" stroke="#1b7f4a" stroke-width="3"/>
-  <text x="200" y="135" text-anchor="middle" font-size="20" font-weight="700" fill="#1f4e79" font-family="Arial, sans-serif">A</text>
-  <text x="200" y="160" text-anchor="middle" font-size="14" fill="#1f4e79" font-family="Arial, sans-serif">0.30</text>
-  <text x="440" y="135" text-anchor="middle" font-size="20" font-weight="700" fill="#1b7f4a" font-family="Arial, sans-serif">B</text>
-  <text x="440" y="160" text-anchor="middle" font-size="14" fill="#1b7f4a" font-family="Arial, sans-serif">0.50</text>
-  <text x="320" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#152033" font-family="Arial, sans-serif">0.15</text>
-  <text x="320" y="250" text-anchor="middle" font-size="16" fill="#152033" font-family="Arial, sans-serif">Independientes =&gt; P(A&#8745;B)=P(A)·P(B)=0.15</text>
+  <text x="200" y="135" text-anchor="middle" font-size="20" font-weight="700" fill="#1f4e79" font-family="Arial, Helvetica, sans-serif">A</text>
+  <text x="200" y="160" text-anchor="middle" font-size="14" fill="#1f4e79" font-family="Arial, Helvetica, sans-serif">0.30</text>
+  <text x="440" y="135" text-anchor="middle" font-size="20" font-weight="700" fill="#1b7f4a" font-family="Arial, Helvetica, sans-serif">B</text>
+  <text x="440" y="160" text-anchor="middle" font-size="14" fill="#1b7f4a" font-family="Arial, Helvetica, sans-serif">0.50</text>
+  <text x="320" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#152033" font-family="Arial, Helvetica, sans-serif">0.15</text>
+  <text x="320" y="250" text-anchor="middle" font-size="15" fill="#152033" font-family="Arial, Helvetica, sans-serif">Independent =&gt; P(A and B) = P(A)*P(B) = 0.15</text>
 </svg>

@@ -125,7 +125,7 @@
       els.revealActions.hidden = true;
       els.explanation.innerHTML = q.explanation;
       els.figure.alt = `Figura: ${q.topic}`;
-      els.figure.src = `/assets/${q.figure}?v=2`;
+      els.figure.src = `/assets/${q.figure}?v=3`;
       els.figure.onerror = () => {
         els.figure.alt = "No se pudo cargar la figura";
       };
