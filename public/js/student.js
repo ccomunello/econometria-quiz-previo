@@ -153,7 +153,11 @@
           ? ` <strong style="color:var(--ok)">Tu respuesta (${myChoice}) fue correcta.</strong>`
           : ` <strong style="color:var(--bad)">Tu respuesta fue ${myChoice}; la correcta es ${q.correct}.</strong>`
         : ` <strong>La correcta es ${q.correct}.</strong>`);
-    els.figure.src = `/assets/${q.figure}`;
+    els.figure.alt = `Figura: ${q.topic}`;
+    els.figure.src = `/assets/${q.figure}?v=2`;
+    els.figure.onerror = () => {
+      els.figure.alt = "No se pudo cargar la figura";
+    };
     renderBars(s.votes || { A: 0, B: 0, C: 0, D: 0 }, q.correct);
     renderMath(els.reveal);
   }

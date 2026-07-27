@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" font-family="Segoe UI, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="Test unicaudal izquierda">
   <rect width="640" height="280" fill="#fbfcfe"/>
-  <text x="320" y="36" text-anchor="middle" font-size="18" font-weight="700" fill="#1f4e79">Test unicaudal: H: ² &lt; 0</text>
+  <text x="320" y="36" text-anchor="middle" font-size="18" font-weight="700" fill="#1f4e79" font-family="Arial, sans-serif">Test unicaudal: H1: &#946; &lt; 0</text>
   <path d="M60,200 C140,200 180,60 320,60 C460,60 500,200 580,200" fill="none" stroke="#1f4e79" stroke-width="3"/>
   <line x1="40" y1="200" x2="600" y2="200" stroke="#9aa8bc" stroke-width="2"/>
-  <path d="M60,200 C100,200 130,140 160,110 L160,200 Z" fill="#b42318" opacity="0.4"/>
+  <path d="M60,200 C100,200 130,140 160,110 L160,200 Z" fill="#b42318" opacity="0.45"/>
   <line x1="320" y1="55" x2="320" y2="210" stroke="#5b6b82" stroke-width="2" stroke-dasharray="4 4"/>
-  <text x="320" y="235" text-anchor="middle" font-size="14" fill="#5b6b82">0 bajo H€</text>
-  <text x="130" y="255" text-anchor="middle" font-size="15" font-weight="700" fill="#b42318">región de rechazo</text>
-  <text x="470" y="140" text-anchor="middle" font-size="14" fill="#5b6b82">no se mira esta cola</text>
+  <text x="320" y="235" text-anchor="middle" font-size="14" fill="#5b6b82" font-family="Arial, sans-serif">0 bajo H0</text>
+  <text x="130" y="255" text-anchor="middle" font-size="15" font-weight="700" fill="#b42318" font-family="Arial, sans-serif">region de rechazo</text>
+  <text x="470" y="140" text-anchor="middle" font-size="14" fill="#5b6b82" font-family="Arial, sans-serif">esta cola no se usa</text>
 </svg>

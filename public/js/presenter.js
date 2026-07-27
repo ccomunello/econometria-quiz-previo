@@ -124,7 +124,11 @@
       els.revealPanel.hidden = false;
       els.revealActions.hidden = true;
       els.explanation.innerHTML = q.explanation;
-      els.figure.src = `/assets/${q.figure}`;
+      els.figure.alt = `Figura: ${q.topic}`;
+      els.figure.src = `/assets/${q.figure}?v=2`;
+      els.figure.onerror = () => {
+        els.figure.alt = "No se pudo cargar la figura";
+      };
       renderBars(s.votes || { A: 0, B: 0, C: 0, D: 0 }, q.correct);
       const nextBtn = document.getElementById("btn-next");
       nextBtn.textContent =

@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" font-family="Segoe UI, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="Traspuesta cambia dimensiones">
   <rect width="640" height="280" fill="#fbfcfe"/>
   <rect x="70" y="50" width="160" height="180" rx="10" fill="#e8f0fb" stroke="#1f4e79" stroke-width="2"/>
-  <text x="150" y="100" text-anchor="middle" font-size="22" font-weight="700" fill="#1f4e79">X</text>
-  <text x="150" y="140" text-anchor="middle" font-size="16" fill="#152033">n filas</text>
-  <text x="150" y="170" text-anchor="middle" font-size="16" fill="#152033">k columnas</text>
-  <text x="150" y="210" text-anchor="middle" font-size="14" fill="#5b6b82">n × k</text>
-  <text x="280" y="145" font-size="36" fill="#152033">Ò</text>
+  <text x="150" y="100" text-anchor="middle" font-size="24" font-weight="700" fill="#1f4e79" font-family="Arial, sans-serif">X</text>
+  <text x="150" y="140" text-anchor="middle" font-size="16" fill="#152033" font-family="Arial, sans-serif">n filas</text>
+  <text x="150" y="170" text-anchor="middle" font-size="16" fill="#152033" font-family="Arial, sans-serif">k columnas</text>
+  <text x="150" y="210" text-anchor="middle" font-size="14" fill="#5b6b82" font-family="Arial, sans-serif">n &#215; k</text>
+  <text x="280" y="145" font-size="36" fill="#152033" font-family="Arial, sans-serif">&#8658;</text>
   <rect x="340" y="80" width="220" height="120" rx="10" fill="#fff3e6" stroke="#d97706" stroke-width="2"/>
-  <text x="450" y="125" text-anchor="middle" font-size="22" font-weight="700" fill="#d97706">X2</text>
-  <text x="450" y="155" text-anchor="middle" font-size="15" fill="#152033">filas ” columnas</text>
-  <text x="450" y="185" text-anchor="middle" font-size="14" fill="#5b6b82">k × n</text>
+  <text x="450" y="125" text-anchor="middle" font-size="24" font-weight="700" fill="#d97706" font-family="Arial, sans-serif">X'</text>
+  <text x="450" y="155" text-anchor="middle" font-size="15" fill="#152033" font-family="Arial, sans-serif">filas &#8596; columnas</text>
+  <text x="450" y="185" text-anchor="middle" font-size="14" fill="#5b6b82" font-family="Arial, sans-serif">k &#215; n</text>
 </svg>

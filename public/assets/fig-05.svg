@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" font-family="Segoe UI, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="Pendiente de regresion">
   <rect width="640" height="280" fill="#fbfcfe"/>
   <line x1="80" y1="220" x2="560" y2="220" stroke="#9aa8bc" stroke-width="2"/>
   <line x1="100" y1="240" x2="100" y2="40" stroke="#9aa8bc" stroke-width="2"/>
   <line x1="120" y1="190" x2="500" y2="70" stroke="#2f80ed" stroke-width="4"/>
-  <circle cx="260" cy="146" r="5" fill="#b42318"/>
-  <circle cx="340" cy="120" r="5" fill="#b42318"/>
-  <path d="M260,146 L340,146 L340,120" fill="none" stroke="#1b7f4a" stroke-width="2"/>
-  <text x="300" y="168" text-anchor="middle" font-size="14" fill="#1b7f4a">”educ = 1</text>
-  <text x="400" y="138" font-size="14" fill="#1b7f4a">”salario = 120</text>
-  <text x="320" y="260" text-anchor="middle" font-size="16" fill="#152033">pendiente = 120 = ”y / ”x</text>
+  <circle cx="260" cy="146" r="6" fill="#b42318"/>
+  <circle cx="340" cy="120" r="6" fill="#b42318"/>
+  <path d="M260,146 L340,146 L340,120" fill="none" stroke="#1b7f4a" stroke-width="2.5"/>
+  <text x="300" y="172" text-anchor="middle" font-size="14" fill="#1b7f4a" font-family="Arial, sans-serif">&#916;educ = 1</text>
+  <text x="395" y="138" font-size="14" fill="#1b7f4a" font-family="Arial, sans-serif">&#916;salario = 120</text>
+  <text x="320" y="255" text-anchor="middle" font-size="16" fill="#152033" font-family="Arial, sans-serif">pendiente = 120 = &#916;y / &#916;x</text>
 </svg>
